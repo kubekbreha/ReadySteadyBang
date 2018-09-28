@@ -1,10 +1,8 @@
-import global from '../Globals.js'
+import global from '../globals.js'
 
 class BootState extends Phaser.State {
 
     create() {
-        //create board in Globals
-        global.createHelper2DBoard();
 
         this.game.stage.backgroundColor = 0x6f6f6f;
         this.input.maxPointers = 1;
