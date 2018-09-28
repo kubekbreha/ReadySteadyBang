@@ -1,0 +1,19 @@
+{
+  "name": "ReadySteadyBang",
+  "version": "0.9.0",
+  "description": "Online replica of ReadySteadyBang game made with Phaser2 and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+},
+  "author": "Jakub Brehuv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubekbreha/ReadySteadyBang/issues"
+  },
+  "homepage": "https://github.com/kubekbreha/ReadySteadyBang#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
