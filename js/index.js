@@ -1,12 +1,3 @@
-import global from './js/Globals.js'
-import BootState from './js/states/BootState.js'
-import GameState from './js/states/GameState.js'
-import MenuState from './js/states/MenuState.js'
-import PreloaderState from './js/states/PreloaderState.js'
-
-import Utils from './js/utils/ScreenUtils.js'
-import './js/utils/ShakeUtil.js'
-
 let initGame = function() {
     let resolution;
     let game;

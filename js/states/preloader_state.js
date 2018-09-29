@@ -1,5 +1,3 @@
-import global from '../Globals.js'
-
 class PreloaderState extends Phaser.State {
 
     preload() {
@@ -13,8 +11,6 @@ class PreloaderState extends Phaser.State {
     }
 
     preloadResources() {
-        this.game.load.text("lang_strings", "../assets/texts/m.json");
-
         var pack = global.resources;
         for (var method in pack) {
             pack[method].forEach(function(args) {
@@ -70,5 +66,3 @@ class PreloaderState extends Phaser.State {
     }
 
 }
-
-export default PreloaderState;

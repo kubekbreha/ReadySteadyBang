@@ -1,5 +1,3 @@
-import global from '../Globals.js'
-
 class GameState extends Phaser.State {
 
     create() {
@@ -8,5 +6,3 @@ class GameState extends Phaser.State {
 
     }
 }
-
-export default GameState;

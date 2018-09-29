@@ -1,5 +1,3 @@
-import global from '../globals.js'
-
 class BootState extends Phaser.State {
 
     create() {
@@ -77,8 +75,4 @@ class BootState extends Phaser.State {
             document.getElementById("content").style.display = "none";
         }
     }
-
-
 }
-
-export default BootState;
