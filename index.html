@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <meta charset="utf-8"/>
+
+		<title></title>
+
+		<link rel="icon" type="image/png" href="assets/graphics/icons/icon.png" sizes="512x512">
+
+		<!--PPS_DELETE-BUILD-->
+		<script src="cordova.js"></script>
+		<script src="js/phaser_262.js"></script>
+		<script src="js/Globals.js"></script>
+		<script src="js/Main.js"></script>
+
+		<script src="js/utils/Ads.js"></script>
+		<script src="js/utils/Analytics.js"></script>
+		<script src="js/utils/AudioManager.js"></script>
+		<script src="js/utils/Button.js"></script>
+		<script src="js/utils/InApps.js"></script>
+		<script src="js/utils/Languages.js"></script>
+		<script src="js/utils/Notifications.js"></script>
+		<script src="js/utils/Particles.js"></script>
+		<script src="js/utils/ScreenUtils.js"></script>
+		<script src="js/utils/StorageManager.js"></script>
+
+		<script src="js/states/Boot.js"></script>
+		<script src="js/states/Game.js"></script>
+		<script src="js/states/Menu.js"></script>
+		<script src="js/states/Preloader.js"></script>
+		<!--PPS_DELETE-BUILD-->
+
+		<!--PPS_USE-BUILD-->
+		<!--
+        <-<srcFls>->
+        PPS_USE-BUILD
+        -->
+
+		<style type="text/css">
+			body {
+				margin: 0;
+				background-color: #3F3F3F;
+			}
+
+			#turn {
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background-color: black;
+				background-image: url("assets/graphics/rotate_screen.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				display: none;
+			}
+
+			@font-face {
+				font-family: "";
+				font-style: normal;
+				font-weight: 400;
+				src: url("assets/.otf");
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="turn"></div>
+		<div class="font_preload" style="opacity: 0">
+			<span style="font-family: '', Arial, sans-serif;"></span>
+		</div>
+	</body>
+</html>
