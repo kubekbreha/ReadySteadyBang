@@ -48,12 +48,13 @@ let global = {
      */
     resources: {
         "image": [
-            ["WIN", "../assets/images/480x800/images/WIN.png"]
-        ],
-        'spritesheet': [
-            //width, heigth
-            ["language", "../assets/images/480x800/sprites/language.png", 60, 60]
+            ["sprite", "../assets/image/sprite.png"]
         ]
+        // ,
+        // 'spritesheet': [
+        //     //width, heigth
+        //     ["language", "../assets/images/480x800/sprites/language.png", 60, 60]
+        // ]
         // ,
         // 'audio': [
         //     ['audio-click', ['sfx/audio-button.m4a', 'sfx/audio-button.mp3', 'sfx/audio-button.ogg']],
