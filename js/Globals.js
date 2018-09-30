@@ -48,7 +48,7 @@ let global = {
      */
     resources: {
         "image": [
-            ["sprite", "../assets/image/sprite.png"]
+            ["sprite", "../assets/images/sprite.png"]
         ]
         // ,
         // 'spritesheet': [
