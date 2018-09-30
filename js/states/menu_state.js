@@ -1,7 +1,8 @@
 class MenuState extends Phaser.State {
 
     create() {
-        this.game.state.start("Game");
+        console.log("in menu state");
 
+        this.game.state.start("Game");
     }
 }

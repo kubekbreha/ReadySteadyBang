@@ -1,6 +1,7 @@
 class BootState extends Phaser.State {
 
     create() {
+        console.log("in boot state");
 
         this.game.stage.backgroundColor = 0x6f6f6f;
         this.input.maxPointers = 1;
@@ -50,7 +51,6 @@ class BootState extends Phaser.State {
                 }
             }
         }
-
         this.game.state.start("Preloader");
     }
 

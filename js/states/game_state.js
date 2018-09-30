@@ -22,11 +22,11 @@ class GameState extends Phaser.State {
 
     getCoordinates(layer, pointer) {
         Client.sendClick(pointer.worldX, pointer.worldY);
-    };
+    }
 
     addNewPlayer(id, x, y) {
         this.playerMap[id] = game.add.sprite(x, y, 'sprite');
-    };
+    }
 
     movePlayer(id, x, y) {
         var player = this.playerMap[id];
@@ -38,10 +38,10 @@ class GameState extends Phaser.State {
             y: y
         }, duration);
         tween.start();
-    };
+    }
 
     removePlayer(id) {
         this.playerMap[id].destroy();
         delete this.playerMap[id];
-    };
+    }
 }
