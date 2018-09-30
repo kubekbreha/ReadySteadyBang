@@ -51,6 +51,7 @@ class BootState extends Phaser.State {
                 }
             }
         }
+
         this.game.state.start("Preloader");
     }
 
